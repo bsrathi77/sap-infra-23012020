@@ -23,7 +23,7 @@ variable "location" {
 }
 
 variable "resource_group" {
-  default = "OS-Factory"
+  default = "MyResourceGroup"
   description = "Resource group name that will contain various resources"
 }
 
@@ -137,7 +137,7 @@ variable "ssh_keys_path" {
 }
 
 variable "ssh_keys_key_data" {
-  default = "ssh-rsa AAAAB3N"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjOxXZsOEmduTixkWCwZYxq972G060RycBOcmQI7sieZISxay5uz+S0b/Hn7seCUnKyDTTm62aqh3+T/aKEZLJDQ5K+634I5l2DNFlS47nK7fYtwbV8Z1wJIUDQbUQaKayePzcTr5RWlwvkahc6DA870ceuV27jtpwYmuPh/fPVOwTkhaLCRRWhL+73m0dkOb7qBB2q2DWstfw6vOoSl9vLmgpvJ8mth0EFLLGWkYhnxlTvzEKumsiX+juzbFb0/uWwV4bfxHUggu/6DjTcUzsFbR6qFRENRZV13S7R/fIo+mMWFRfSLydRZ1EJzueqltPJBJgE32z2YkBxtXcg2+X root@abhay-os-factory"
   description = "Enter public key which need to insert into linux vm"
 }
 
