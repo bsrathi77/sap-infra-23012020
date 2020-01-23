@@ -28,7 +28,7 @@ variable "resource_group" {
 }
 
 variable "virtual_network_name" {
-  default = "SAPNet"
+  default = "SAPNetDemo"
   description = "Virtual Network name"
 }
 
