@@ -23,7 +23,7 @@ variable "location" {
 }
 
 variable "resource_group" {
-  default = "Hanatest"
+  default = "MyResourceGroup"
   description = "Resource group name that will contain various resources"
 }
 
